@@ -7,10 +7,10 @@ dotenv.config();
 
 app.use(cors());
 
-app.get("/", function (req: any, res: any) {
+app.get("/", function (req, res) {
   res.send("Hello World");
 });
-app.get("/getdata", function (req: any, res: any) {
+app.get("/getdata", function (req, res) {
   res.json([
     {
       id: 1,
