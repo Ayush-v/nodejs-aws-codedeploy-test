@@ -1,7 +1,7 @@
 {
   "name": "server-for-aws-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Deploy nodejs app to aws ec2 ubuntu server with aws codedeploy and aws pipeline and Github action - CI / CD",
   "main": "index.ts",
   "scripts": {
     "start": "nodemon index",
