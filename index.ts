@@ -3,14 +3,14 @@ const app = express();
 const dotenv = require("dotenv");
 const cors = require("cors");
 dotenv.config();
-import { Request, Response } from "express";
+// const { Request, Response } =  "express";
 
 app.use(cors());
 
-app.get("/", function (req: Request, res: Response) {
+app.get("/", function (req: any, res: any) {
   res.send("Hello World");
 });
-app.get("/getdata", function (req: Request, res: Response) {
+app.get("/getdata", function (req: any, res: any) {
   res.json([
     {
       id: 1,
