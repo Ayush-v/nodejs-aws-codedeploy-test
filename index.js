@@ -8,10 +8,12 @@ app.use(cors());
 
 const port = 3000;
 
+const version = "3";
+
 app.get("/", function (req, res) {
   res.send("Hello World");
 
-  console.log(`New request` + req.url);
+  console.log(`New request version:${version}` + req.url);
 });
 app.get("/getdata", function (req, res) {
   res.json([
@@ -247,7 +249,7 @@ app.get("/getdata", function (req, res) {
     },
   ]);
 
-  console.log(`New request getdata` + req.url);
+  console.log(`New request getdata version:${version}` + req.url);
 });
 
 app.listen(port, () => {
