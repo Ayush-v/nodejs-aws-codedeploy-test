@@ -7,8 +7,12 @@ dotenv.config();
 
 app.use(cors());
 
+const port = 3000;
+
 app.get("/", function (req, res) {
   res.send("Hello World");
+
+  console.log(`New request` + req.url);
 });
 app.get("/getdata", function (req, res) {
   res.json([
@@ -243,8 +247,10 @@ app.get("/getdata", function (req, res) {
       },
     },
   ]);
+
+  console.log(`New request getdata` + req.url);
 });
 
-app.listen(8080, () => {
-  console.log(`Server is running and listening on 8080`);
+app.listen(port, () => {
+  console.log(`Server is running and listening on ${port}`);
 });
