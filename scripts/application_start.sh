@@ -1,5 +1,8 @@
 #!/bin/bash
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 echo 'run application_start.sh: ' >> /home/ec2-user/nodejs-aws-codedeploy-test/deploy.log
 
 
