@@ -11,7 +11,7 @@ const port = 3000;
 const version = "3";
 
 app.get("/", function (req, res) {
-  res.send("Hello World is woring lesfdjksdfvfshjd Aysuh");
+  res.send("Hello World this is working 🔥");
 
   console.log(`New request version:${version}` + req.url);
 });
