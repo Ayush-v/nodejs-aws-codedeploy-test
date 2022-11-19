@@ -19,7 +19,7 @@ app.get("/getdata", function (req, res) {
   res.json([
     {
       id: 1,
-      name: "Ervin Howell",
+      name: "It Might Work",
       username: "Antonette",
       email: "Shanna@melissa.tv",
       address: {
