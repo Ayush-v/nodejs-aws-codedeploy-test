@@ -20,7 +20,7 @@ app.get("/getdata", function (req, res) {
     {
       id: 1233,
       name: "It Might Work",
-      username: "Antonette",
+      username: "last 2 steps",
       email: "Shanna@melissa.tv",
       address: {
         street: "Victor Plains",
