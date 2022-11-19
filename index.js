@@ -21,12 +21,12 @@ app.get("/getdata", function (req, res) {
       id: 1233,
       name: "It Might Work",
       username: "last 2 steps",
-      email: "Shanna@melissa.tv",
+      email: "Shsdfasrgadrfgearanna@melissa.tv",
       address: {
         street: "Victor Plains",
         suite: "Suite 879",
         city: "Wisokyburgh",
-        zipcode: "90566-7771",
+        zipcode: "90566wedfsrf-7771",
         geo: {
           lat: "-43.9509",
           lng: "-34.4618",
